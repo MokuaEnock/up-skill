@@ -1,0 +1,181 @@
+nav div {
+    border: thin solid #004526;
+}
+
+* {
+    margin: 0;
+    font-family: 'Taviraj', serif;
+}
+
+body {
+    background-color: rgba(0, 69, 38, 0.05);
+}
+
+/* --------------------Navigation---------------------------- */
+nav {
+    width: 100%;
+    height: 5.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    border: #004526 thin solid;
+    background-color: rgb(0, 69, 38, 0.1);
+
+}
+
+#logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #004526;
+    font-size: 2.0vw;
+}
+
+#more_info {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#more_info a {
+    text-decoration: none;
+    color: #004526;
+    font-size: 1.8vw;
+    font-weight: 200;
+
+}
+
+#more_info a:hover {
+    text-decoration: overline;
+    text-decoration-thickness: 0.25vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+#prof {
+    width: 6%;
+    height: 100%;
+    margin-right: 4%;
+    border-radius: 10vw;
+}
+
+#prof button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10vw;
+    border: none;
+}
+
+/* --------------------Section 1------------------------------ */
+#section1 {
+    width: 100%;
+    height: 4vw;
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 69, 38, 0.1);
+
+}
+
+#sect1_cont {
+    width: 20%;
+    height: 100%;
+    border: #004526 thin solid;
+    background-color: rgba(0, 69, 38, 0.1);
+    border-radius: 0.5vw;
+    color: #004526;
+    font-size: 2.0vw;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sect1_cont:hover {
+    width: 18%;
+    height: 90%;
+    font-weight: 400;
+    background-color: #004526;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------------Scetion 2------------------------------- */
+#section2 {
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 69, 38, 0.1);
+}
+
+.jobs_but {
+    font-size: 1.5vw;
+    height: 60%;
+    border-radius: 0.5vw;
+    border: thin #004526 solid;
+}
+
+.jobs_but:hover {
+    background-color: #004526;
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+/* -----------------------Section 3----------------------------- */
+#section3 {
+    margin-top: 0.5%;
+    width: 100%;
+    height: 120vw;
+    background-color: rgb(0, 69, 38, 0.1);
+    border: solid thin #004526;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect3_cont {
+    width: 100%;
+    height: 25%;
+    border: #004526 thin solid;
+}
+
+/* ------------------Footer-------------------- */
+footer {
+    width: 100%;
+    height: 15.5vw;
+    margin-top: 1%;
+    background-color: rgb(0, 69, 38, 0.1);
+    border: #004526 thin solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_cont {
+    width: 23%;
+    height: 100%;
+    border: #004526 thin solid;
+    background-color: rgba(0, 69, 38, 0.002);
+}
