@@ -168,6 +168,8 @@ nav {
     border: #004526 thin solid;
     width: 23%;
     height: 95%;
+    border-radius: 0.5vw;
+    background-color: rgb(255, 255, 255);
 }
 
 /* ------------------Footer-------------------- */
