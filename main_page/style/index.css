@@ -164,12 +164,139 @@ nav {
     align-items: center;
 }
 
-.sect3_cont1 {
+
+
+.card_cont1 {
     border: #004526 thin solid;
     width: 23%;
     height: 95%;
     border-radius: 0.5vw;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_cont1 h2 {
+    width: 100%;
+    height: 10%;
+    font-size: 1.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_head {
+    width: 100%;
+    height: 25%;
+    border: #004526 thin solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect3_cont1 .view_more {
+    width: 100%;
+    height: 20%;
+}
+
+.card_logo {
+    width: 30%;
+    height: 100%;
+    border: inherit;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.card_com_info {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_com_info h2 {
+    font-size: 1.8vw;
+    color: #004526;
+}
+
+.card_com_info h3 {
+    font-size: 1.5vw;
+    color: #004526;
+}
+
+.card_com_info h4 {
+    font-size: 1.3vw;
+    color: #004526;
+}
+
+.card_main {
+    width: 100%;
+    height: 50%;
+    border: #004526 thin solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_benefits {
+    width: 100%;
+    height: 30%;
+    border: #004526 thin solid;
+}
+
+.card_jobType {
+    width: 100%;
+    height: 30%;
+    border: #004526 thin solid;
+}
+
+.site_posted {
+    width: 100%;
+    height: 30%;
+    border: #004526 thin solid;
+}
+
+.more_info {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: #004526 thin solid;
+}
+
+.more_info button {
+    width: 40%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.8vw;
+    font-weight: 550;
+}
+
+.more_info_but2 {
+    background-color: #004526;
+    color: white;
+    border-radius: 0.2vw;
+    border: none;
 }
 
 /* ------------------Footer-------------------- */
