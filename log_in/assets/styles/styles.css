@@ -3,50 +3,29 @@ body {
 }
 
 * {
-    margin: 0.01;
+    margin: 0;
+    padding: 0;
+
 }
 
 main {
     width: 100%;
-    height: 50vw;
+    height: 51vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #004526;
-    border: thin white solid;
 }
 
-main>div {
-    border: thin solid white;
-    height: 100%;
-    width: 49.5%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
 #main_cont {
     width: 25%;
     height: 27vw;
     border: white solid thin;
-     border-radius: .6vw;
+    border-radius: .6vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
 }
@@ -62,4 +41,64 @@ h2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-} */
+}
+
+#user_name {
+    width: 100%;
+    height: 15%;
+    font-size: 1.7vw;
+}
+
+#user_name input {
+    border: none;
+    background-color: rgb(0, 69, 38, .1);
+    width: 100%;
+    height: 70%;
+}
+
+#pass_word {
+    width: 100%;
+    height: 15%;
+    font-size: 1.7vw;
+}
+
+#pass_word input {
+    border: none;
+    background-color: rgb(0, 69, 38, .1);
+    width: 100%;
+    height: 70%;
+}
+
+#log_in {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#log_in input {
+    width: 60%;
+    height: 100%;
+    font-size: 1.7vw;
+}
+
+#par {
+    font-size: 1.3vw;
+}
+
+#reg {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#reg button {
+    width: 70%;
+    height: 100%;
+    font-size: 1.7vw;
+}
