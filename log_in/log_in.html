@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/log_in/assets/styles/styles.css" />
     <title>Log In</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Taviraj&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <!--  <img src="/log_in/assets/images/background1.png" alt="" /> -->
       <form id="main_cont">
-        <h2>KARIBU MEMBER</h2>
+        <h2>Karibu Member</h2>
 
         <div id="user_name">
-          <label for="userName">Enter your Username</label>
-          <br />
-          <input type="text" id="userName" />
+          <img src="/log_in/assets/images/user.png" alt="user" />
+          <input type="text" id="userName" placeholder="Username" />
         </div>
 
         <div id="pass_word">
-          <label for="password">Enter Password.</label>
-          <br />
-          <input type="password" id="password" />
+          <img src="/log_in/assets/images/padlock.png" alt="password" />
+          <input type="password" id="password" placeholder="Password" />
         </div>
 
         <div id="log_in">
-          <input type="submit" value="LogIn" />
+          <button>LogIn</button>
         </div>
-
+        <div id="line"></div>
         <p id="par">Forgot Password? <a href="#">Click Here</a></p>
-        <div></div>
 
         <div id="reg">
           <button>Register</button>
